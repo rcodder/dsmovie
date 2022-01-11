@@ -110,3 +110,18 @@ Binding(CTRL+SHIFT+C,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-11 14:59:15.850
 !MESSAGE executing callback sts4.classpath.hiFpVOiV SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-11 15:07:34.934
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.hiFpVOiV
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-11 15:07:34.934
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.hiFpVOiV
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-11 15:07:34.935
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-11 15:07:34.935
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.hiFpVOiV => OK
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-01-11 15:07:36.004
+!MESSAGE The workspace will exit with unsaved changes in this session.
