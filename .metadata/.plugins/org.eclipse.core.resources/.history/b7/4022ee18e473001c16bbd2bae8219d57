@@ -1,0 +1,28 @@
+package com.devsuperior.dsmovie.entities;
+
+public class Score {
+
+	private ScorePK id = new ScorePK();
+	
+	private Movie value;
+	
+	public Score() {}
+
+	public ScorePK getId() {
+		return id;
+	}
+
+	public void setId(ScorePK id) {
+		this.id = id;
+	}
+
+	public Movie getValue() {
+		return value;
+	}
+
+	public void setValue(Movie value) {
+		this.value = value;
+	}
+
+	
+}

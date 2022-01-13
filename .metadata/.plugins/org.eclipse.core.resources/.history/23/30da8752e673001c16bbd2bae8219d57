@@ -1,0 +1,30 @@
+package com.devsuperior.dsmovie.entities;
+
+import javax.persistence.Embeddable;
+
+@Embeddable
+public class ScorePK {
+
+	private Movie movie;
+	private Movie user;
+	
+	public ScorePK() {}
+
+	public Movie getMovie() {
+		return movie;
+	}
+
+	public void setMovie(Movie movie) {
+		this.movie = movie;
+	}
+
+	public Movie getUser() {
+		return user;
+	}
+
+	public void setUser(Movie user) {
+		this.user = user;
+	}
+	
+	
+}
