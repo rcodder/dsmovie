@@ -1,0 +1,12 @@
+package com.devsuperior.dsmovie.controllers;
+
+
+
+@RestController
+@RequestMapping(value = "/movies")
+public class MovieController {
+
+	pubic Page<MovieDTO> findAll(Pageable pageable) {
+		
+	}
+}

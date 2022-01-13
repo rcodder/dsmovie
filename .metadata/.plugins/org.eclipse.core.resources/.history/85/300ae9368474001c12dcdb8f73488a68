@@ -1,0 +1,32 @@
+package com.devsuperior.dsmovie.dto;
+
+import com.devsuperior.dsmovie.entities.Movie;
+
+public class MovieDTO {
+	
+	private String title;
+	private Double score;
+	private Integer count;
+	private String image;
+	
+	public MovieDTO() {}
+
+	public MovieDTO(String title, Double score, Integer count, String image) {
+
+		this.title = title;
+		this.score = score;
+		this.count = count;
+		this.image = image;
+	}
+
+	public MovieDTO(Movie movie) {
+
+		this.title = title;
+		this.score = score;
+		this.count = count;
+		this.image = image;
+	}
+	
+	
+
+}

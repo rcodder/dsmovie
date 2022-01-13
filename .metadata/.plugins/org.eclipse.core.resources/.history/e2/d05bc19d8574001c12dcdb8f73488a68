@@ -1,0 +1,22 @@
+package com.devsuperior.dsmovie.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
+
+import com.devsuperior.dsmovie.dto.MovieDTO;
+import com.devsuperior.dsmovie.entities.Movie;
+import com.devsuperior.dsmovie.repositories.MovieRepository;
+
+@Service
+public class MovieSevice {
+
+	@Autowired
+	private MovieRepository repository;
+	
+	public List<MovieDTO> findAll(Pageable pageable) {
+		List<Movie> result = repository.findAll();
+	}
+}
